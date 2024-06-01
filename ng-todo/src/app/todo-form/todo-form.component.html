@@ -1,0 +1,9 @@
+<div>
+    <input
+      type="text"
+      placeholder="Add ToDo title..."
+      [(ngModel)]="title"
+      (keydown.enter)="addTodo()"
+    >
+    <button (click)="addTodo()">Add ToDo</button>
+</div>
